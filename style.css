@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(160, 83, 255), rgb(82, 82, 255));
+    margin: 0; 
+}
+
+.container{
+    background: #282828;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+}
+
+.container h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.input-group{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+}
+
+.input-field input{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid rgb(206, 174, 245); 
+    background: #282828;
+    color: #fff;
+    margin-bottom: 30px;
+    width: 100%; 
+    font-size: 20px;
+}
+
+.container button{
+    width: 400px;
+    height: 40px;
+    background: rgb(186, 133, 250) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto; 
+    cursor: pointer;
+    transition:  all .7s;
+
+}
+
+.container button:hover{
+    background:rgb(206, 174, 245);
+    transition:  all .7s;
+}
+
+.container span{
+    font-size: 40px;
+    display: block; /*Garante que o span se comporte como bloco */
+    margin-top: 20px; 
+}
+
+
+label{
+    font-size: 22px;
+}
